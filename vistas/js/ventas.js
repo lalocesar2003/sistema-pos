@@ -772,7 +772,9 @@ $(".tablas").on("click", ".btnImprimirFactura", function(){
 
 	var codigoVenta = $(this).attr("codigoVenta");
 
-	window.open("extensiones/tcpdf/pdf/factura.php?codigo="+codigoVenta, "_blank");
+	window.open("extensiones/tcpdf/examples/example_048.php", "_blank");
+
+
 
 })
 

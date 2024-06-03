@@ -24,7 +24,7 @@ class ModeloCategorias{
 		
 		}
 
-		$stmt->close();
+	
 		$stmt = null;
 
 	}
@@ -55,7 +55,7 @@ class ModeloCategorias{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -82,7 +82,7 @@ class ModeloCategorias{
 		
 		}
 
-		$stmt->close();
+	
 		$stmt = null;
 
 	}
@@ -107,7 +107,7 @@ class ModeloCategorias{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 

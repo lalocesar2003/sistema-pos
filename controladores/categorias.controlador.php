@@ -151,6 +151,11 @@ class ControladorCategorias{
 
 		if(isset($_GET["idCategoria"])){
 
+			$respuesta = ModeloProductos::mdlMostrarProductos("productos", "id_categoria", $_GET["idCategoria"],"ASC");
+			
+			if(!$respuesta){
+
+				
 			$tabla ="Categorias";
 			$datos = $_GET["idCategoria"];
 
@@ -175,6 +180,24 @@ class ControladorCategorias{
 
 					</script>';
 			}
+		}else{
+			echo'<script>
+
+					swal({
+						  type: "error",
+						  title: "¡No se puede borrar la categoría, porque tiene productos asociados!",
+						  showConfirmButton: true,
+						  confirmButtonText: "Cerrar"
+						  }).then(function(result){
+									if (result.value) {
+
+									window.location = "categorias";
+
+									}
+								})
+
+					</script>';
+		}
 		}
 		
 	}

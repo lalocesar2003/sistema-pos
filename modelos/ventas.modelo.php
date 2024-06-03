@@ -22,7 +22,7 @@ class ModeloVentas{
 
 		}else{
 
-			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id ASC");
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id DESC");
 
 			$stmt -> execute();
 
@@ -30,7 +30,7 @@ class ModeloVentas{
 
 		}
 		
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -63,7 +63,7 @@ class ModeloVentas{
 		
 		}
 
-		$stmt->close();
+
 		$stmt = null;
 
 	}
@@ -95,7 +95,7 @@ class ModeloVentas{
 		
 		}
 
-		$stmt->close();
+
 		$stmt = null;
 
 	}
@@ -120,7 +120,7 @@ class ModeloVentas{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -134,7 +134,7 @@ class ModeloVentas{
 
 		if($fechaInicial == null){
 
-			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id ASC");
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla ORDER BY id DESC");
 
 			$stmt -> execute();
 
@@ -143,13 +143,11 @@ class ModeloVentas{
 
 		}else if($fechaInicial == $fechaFinal){
 
-			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha like '%$fechaFinal%'");
-
-			$stmt -> bindParam(":fecha", $fechaFinal, PDO::PARAM_STR);
-
-			$stmt -> execute();
-
-			return $stmt -> fetchAll();
+			$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha LIKE :fecha");
+			$param = "%$fechaFinal%";
+			$stmt->bindParam(":fecha", $param, PDO::PARAM_STR);
+			$stmt->execute();
+			return $stmt->fetchAll();
 
 		}else{
 
@@ -161,15 +159,14 @@ class ModeloVentas{
 			$fechaFinal2 ->add(new DateInterval("P1D"));
 			$fechaFinalMasUno = $fechaFinal2->format("Y-m-d");
 
-			if($fechaFinalMasUno == $fechaActualMasUno){
-
-				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha BETWEEN '$fechaInicial' AND '$fechaFinalMasUno'");
-
-			}else{
-
-
-				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha BETWEEN '$fechaInicial' AND '$fechaFinal'");
-
+			if ($fechaFinalMasUno == $fechaActualMasUno) {
+				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha BETWEEN :fechaInicial AND :fechaFinalMasUno");
+				$stmt->bindParam(":fechaInicial", $fechaInicial, PDO::PARAM_STR);
+				$stmt->bindParam(":fechaFinalMasUno", $fechaFinalMasUno, PDO::PARAM_STR);
+			} else {
+				$stmt = Conexion::conectar()->prepare("SELECT * FROM $tabla WHERE fecha BETWEEN :fechaInicial AND :fechaFinal");
+				$stmt->bindParam(":fechaInicial", $fechaInicial, PDO::PARAM_STR);
+				$stmt->bindParam(":fechaFinal", $fechaFinal, PDO::PARAM_STR);
 			}
 		
 			$stmt -> execute();
@@ -192,7 +189,7 @@ class ModeloVentas{
 
 		return $stmt -> fetch();
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 

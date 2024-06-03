@@ -1,5 +1,9 @@
 <?php
 
+ini_set('display_errors', 1);
+ini_set("log_errors", 1);
+ini_set("error_log", "C:/xampp/htdocs/pos/php_error_log");
+
 require_once "controladores/plantilla.controlador.php";
 require_once "controladores/usuarios.controlador.php";
 require_once "controladores/categorias.controlador.php";

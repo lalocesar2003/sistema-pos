@@ -30,7 +30,7 @@ class ModeloProductos{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -61,7 +61,7 @@ class ModeloProductos{
 		
 		}
 
-		$stmt->close();
+	
 		$stmt = null;
 
 	}
@@ -91,7 +91,7 @@ class ModeloProductos{
 		
 		}
 
-		$stmt->close();
+	
 		$stmt = null;
 
 	}
@@ -116,7 +116,7 @@ class ModeloProductos{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -143,7 +143,7 @@ class ModeloProductos{
 
 		}
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 
@@ -161,7 +161,7 @@ class ModeloProductos{
 
 		return $stmt -> fetch();
 
-		$stmt -> close();
+		
 
 		$stmt = null;
 	}

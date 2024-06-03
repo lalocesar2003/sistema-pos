@@ -1,0 +1,97 @@
+[02-Jun-2024 01:50:52 Europe/Berlin] PHP Warning:  mkdir(): File exists in C:\xampp\htdocs\pos\controladores\productos.controlador.php on line 51
+[02-Jun-2024 22:10:51 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:10:56 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:10:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:10:58 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:10:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:10:59 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:11:14 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:11:39 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:11:42 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:11:43 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:12:02 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156
+[02-Jun-2024 22:12:13 Europe/Berlin] PHP Fatal error:  Uncaught TypeError: count(): Argument #1 ($value) must be of type Countable|array, bool given in C:\xampp\htdocs\pos\controladores\categorias.controlador.php:156
+Stack trace:
+#0 C:\xampp\htdocs\pos\vistas\modulos\categorias.php(276): ControladorCategorias::ctrBorrarCategoria()
+#1 C:\xampp\htdocs\pos\vistas\plantilla.php(150): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\pos\controladores\plantilla.controlador.php(7): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\pos\index.php(21): ControladorPlantilla::ctrPlantilla()
+#4 {main}
+  thrown in C:\xampp\htdocs\pos\controladores\categorias.controlador.php on line 156

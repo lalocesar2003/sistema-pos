@@ -23,7 +23,7 @@ class ControladorVentas{
 	static public function ctrCrearVenta(){
 
 		if(isset($_POST["nuevaVenta"])){
-
+		
 			/*=============================================
 			ACTUALIZAR LAS COMPRAS DEL CLIENTE Y REDUCIR EL STOCK Y AUMENTAR LAS VENTAS DE LOS PRODUCTOS
 			=============================================*/
@@ -119,6 +119,7 @@ class ControladorVentas{
 			$respuesta = ModeloVentas::mdlIngresarVenta($tabla, $datos);
 
 			if($respuesta == "ok"){
+			
 
 				echo'<script>
 
